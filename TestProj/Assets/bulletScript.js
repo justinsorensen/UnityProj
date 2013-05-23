@@ -14,3 +14,11 @@ transform.Translate(Vector3.up * amtToMove);
 	
 	}
 }
+
+function OnTriggerEnter(otherObject: Collider) {
+
+	if(otherObject.gameObject.tag == "enemy") {
+		PlayerScript.playerScore += 100;
+	}
+
+}
