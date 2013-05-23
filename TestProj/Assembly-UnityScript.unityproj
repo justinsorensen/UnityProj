@@ -44,9 +44,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnemyScript.js" />
-     <Compile Include="Assets\PlayerScript.js" />
      <Compile Include="Assets\bulletScript.js" />
+     <Compile Include="Assets\enemyScript.js" />
+     <Compile Include="Assets\playerScript.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
