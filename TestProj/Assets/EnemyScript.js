@@ -1,6 +1,6 @@
+
+
 var enemySpeed: int;
-
-
 
 function Update () {
 
