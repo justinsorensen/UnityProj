@@ -1,15 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\torchScript.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\playerScript.js">
     <Files>
+      <File FileName="Assets\bulletScript.js" Line="1" Column="1" />
       <File FileName="Assets\playerScript.js" Line="107" Column="1" />
       <File FileName="Assets\torchScript.js" Line="1" Column="1" />
-      <File FileName="Assets\bulletScript.js" Line="1" Column="1" />
       <File FileName="Assets\enemyScript.js" Line="1" Column="1" />
       <File FileName="Assets\mainMenuScript.js" Line="1" Column="1" />
       <File FileName="Assets\loseScript.js" Line="1" Column="1" />
       <File FileName="Assets\winScript.js" Line="1" Column="1" />
-      <File FileName="Assets\airplaneScript.js" Line="4" Column="25" />
+      <File FileName="Assets\airplaneScript.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

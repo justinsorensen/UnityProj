@@ -37,16 +37,16 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>E:/Applications/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>E:/Applications/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EnemyScript.js" />
      <Compile Include="Assets\airplaneScript.js" />
      <Compile Include="Assets\bulletScript.js" />
-     <Compile Include="Assets\enemyScript.js" />
      <Compile Include="Assets\loseScript.js" />
      <Compile Include="Assets\mainMenuScript.js" />
      <Compile Include="Assets\playerScript.js" />
