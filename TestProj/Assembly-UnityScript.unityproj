@@ -44,11 +44,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\airplaneScript.js" />
      <Compile Include="Assets\bulletScript.js" />
      <Compile Include="Assets\enemyScript.js" />
      <Compile Include="Assets\loseScript.js" />
      <Compile Include="Assets\mainMenuScript.js" />
      <Compile Include="Assets\playerScript.js" />
+     <Compile Include="Assets\torchScript.js" />
      <Compile Include="Assets\winScript.js" />
   </ItemGroup>
   <ItemGroup>

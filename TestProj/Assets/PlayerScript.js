@@ -10,6 +10,10 @@ var bullet: Rigidbody;
 
 var explosion: Transform;
 
+var normalMaterial: Material;
+
+var hitMaterial: Material;
+
 function Update () {
 
 	// amount to move player
@@ -18,9 +22,32 @@ function Update () {
 
 	//move/translate the player object
 	//Vector3 concept
-	transform.Translate(Vector3.right * amtToMove);
+	transform.Translate(Vector3.right * amtToMove);				//trying new movement script to limit screen movement
 	
-		
+//////// Limit movement to edge of the screen ////////////
+
+   /*   if(transform.position.x < -6){
+         transform.position.x = -6;
+      }
+   
+      if (transform.position.x > 6) {
+         transform.position.x = 6;
+      }*/
+      
+/////////////////////////////////////////////////////////
+
+///////// Wrap around the screen/////////////////////////	  
+
+	  if(transform.position.x < -7){
+         transform.position.x = 7;
+      }
+   
+      if (transform.position.x > 7) {
+         transform.position.x = -7;
+      }      
+      
+/////////////////////////////////////////////////////////
+			
 	if(Input.GetKeyDown("space")) {
 	
 		var tempBullet: Rigidbody;
@@ -72,6 +99,13 @@ function OnTriggerEnter(otherObject: Collider) {
 		tempExplosion = Instantiate(explosion,transform.position,transform.rotation);
 	
 		playerLives--;
+		
+		//hit "animation", just change the color then change it back
+		renderer.material = hitMaterial;		
+		
+		yield WaitForSeconds(1);
+		
+		renderer.material = normalMaterial;
 		
 	}
 
