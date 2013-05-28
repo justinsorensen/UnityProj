@@ -104,7 +104,7 @@ function OnTriggerEnter(otherObject: Collider) {
 		renderer.material = hitMaterial;		
 		
 		yield WaitForSeconds(1);
-		
+
 		renderer.material = normalMaterial;
 		
 	}
